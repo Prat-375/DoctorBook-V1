@@ -1,0 +1,9 @@
+.doc-search {
+    -webkit-appearance: none;
+    border: fade-out($color: #2c0505, $amount: 0);
+    outline: black;
+    padding: 10px;
+    width: 250px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}

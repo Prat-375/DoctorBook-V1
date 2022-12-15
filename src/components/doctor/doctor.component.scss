@@ -1,0 +1,39 @@
+.doc-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #117575;
+    border: 1px solid grey;
+    border-radius: 2px;
+    padding: 15px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.doc-container:hover {
+    transform: scale(1.05);
+}
+
+.content {
+    padding: 10px;
+}
+
+h2{
+    padding: 5px 0;
+}
+
+.doctor-btns {
+    padding: 0 5px;
+}
+
+.doctor-btns .btn {
+    margin: 6px;
+}
